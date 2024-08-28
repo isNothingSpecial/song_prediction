@@ -260,7 +260,7 @@ elif literatur == 'tempo_category_numeric':
 
 Berikut adalah literasi singkat tentang jenis jenis Kategori Tempo diatas''')
     
-    littempo = ['0','1','2','3','4','5']
+    littempo = ['0','1','2','3','4','5','6']
     literaturtempo = st.selectbox('Pilih literatur kategori numerik key yang ingin anda ketahui : ', littempo)
     
     if literaturtempo == '0':
